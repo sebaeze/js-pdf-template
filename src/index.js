@@ -15,19 +15,30 @@ export const generatePDF = (argOpt) => {
             let doc = new PDFDoc({
                 layout: 'portrait',
                 pdfVersion: "1.4",
-                margin: 40,
+                margin: 1,
                 size: 'A4'
             }) ;
             doc.pipe(fs.createWriteStream( pathPDF ));
             //
-            doc .fontSize(15)
-                .text('Some text with an embedded font!') ;
-            //
-            doc .fontSize(12)
-                .text('*** test 1 ***',200,200) ;
-            //
-            doc .fontSize(13)
-                .text('*** 2222222 ***',50,100) ;
+            console.log("...data.length: ",argOpt.data.length,";");
+            for ( let posDD=0; posDD<argOpt.data.length; posDD++ ){
+                let elemText = argOpt.data[posDD] ;
+                if ( elemText["#text"]!=undefined && elemText["#text"].length>0 ){
+                    // doc.switchToPage(0) ;
+                    // doc .font("Courier-Bold")
+                    let fontNN = elemText.attr.fontName==undefined ? "Courier-Bold" : elemText.attr.fontName ;
+                    fontNN     = fontNN.replace(/_/g,"-") ;
+                    switch(fontNN){
+                        case "Helvetica-bold": fontNN="Helvetica-Bold" ; break ;
+                        default: break ;
+                    } ;
+                    console.log("...fontNN: ",fontNN," fSize: ",elemText.attr.fontSize," x: ",elemText.attr.x," y: ",elemText.attr.y," text: ",elemText["#text"],"") ;
+                    //
+                    doc .font( fontNN )
+                        .fontSize( elemText.attr.fontSize )
+                        .text( ""+String(elemText["#text"]) , parseFloat(elemText.attr.x)* 2.54 , parseFloat(elemText.attr.y)* 2.54  ) ;
+                } ;
+            } ;
             //
             doc.end() ;
             //

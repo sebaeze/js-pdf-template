@@ -17,7 +17,7 @@ const options = {
     allowBooleanAttributes : false,
     parseNodeValue : true,
     parseAttributeValue : false,
-    trimValues: true,
+    trimValues: false,
     cdataTagName: "__cdata", //default is 'false'
     cdataPositionChar: "\\c",
     parseTrueNumberOnly: false,
@@ -31,18 +31,18 @@ let jsonParsed = xmlParser.convertToJson( tObj, options ) ;
 console.log("\n\n....jsonParsed: ",jsonParsed,";") ;
 //
 let arrayText = jsonParsed['iolc:Invoices']['iolc:Invoice']['iolc:InvoiceHeader']['iolc:Text'] ;
+/*
 arrayText.forEach((elemText)=>{
     console.log("...elemText: attr: ",elemText.attr," tt: ",elemText["#text"],";") ;
 }) ;
+*/
 // console.log("\n....header: ",jsonParsed['iolc:Invoices']['iolc:Invoice']['iolc:InvoiceHeader'],";") ;
 //
-/*
-generatePDF({ path: __dirname })
+generatePDF({ path: __dirname, data: arrayText })
     .then((rr)=>{
         console.log("...r: ",rr,";") ;
     })
     .catch((ee)=>{
         console.log("...ee: ",ee,";") ;
     }) ;
-*/
 //
