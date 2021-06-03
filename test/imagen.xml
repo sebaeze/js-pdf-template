@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<iolc:Invoices
+	xmlns:iolc="http://www.example.org/IOLCVisualInvoice_1.2.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/IOLCVisualInvoice_1.2.2 IOLCVisualInvoice_1.2.2.xsd" >
+	<iolc:Invoice fontName="Courier" fontSize="8" key="F642813" orientation="Portrait" size="Letter" uom="mm" >
+		<iolc:Country>871</iolc:Country>
+		<iolc:SourceID>B370</iolc:SourceID>
+		<iolc:OverlayFile>871_V1.0.JPG</iolc:OverlayFile>
+		<iolc:InvoiceHeader>
+			<iolc:Text x="165.0"   y="15.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="18" > 44 -</iolc:Text>
+			<iolc:Text x="136"   y="85"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="178.0"   y="15.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="16" fontColor="red"> 642813</iolc:Text>
+			<iolc:Text x="150"   y="40"   fontStyle="bold" fontName="Helvetica_bold" fontSize="10" > FACTURA No. 642813</iolc:Text>
+			<iolc:Text x="33"   y="50"   fontStyle="bold" fontName="Helvetica_bold" fontSize="11" > IBM GLOBAL SERVICES LIMITED.</iolc:Text>
+			<iolc:Text x="156"   y="46"   fontStyle="bold" fontName="Helvetica_bold"          fontSize="10"> SERIE A</iolc:Text>
+			<iolc:Text x="34"   y="57"   fontStyle="bold" fontName="Helvetica" fontSize="8" > RIF: 55000004153     NIT:</iolc:Text>
+			<iolc:Text x="34"   y="61"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" > IBM HOUSE</iolc:Text>
+			<iolc:Text x="150"   y="61"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" > CARACAS</iolc:Text>
+			<iolc:Text x="34"   y="64"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" > SHELBOURNE ROAD</iolc:Text>
+			<iolc:Text x="150"   y="64"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" > 23-12-2019</iolc:Text>
+			<iolc:Text x="34"   y="67"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" > IRELAND         BALLSBRIDGE, DUBLIN</iolc:Text>
+			<iolc:Text x="34.0"   y="71.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="34"   y="78"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="34"   y="81"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="109.5"   y="81.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="34"   y="84"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="34.0"   y="89.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="9" ></iolc:Text>
+			<iolc:Text x="141.0"   y="82.0"   fontStyle="bold" fontName="Helvetica_bold" fontSize="13" > IBM606</iolc:Text>
+			<iolc:Text x="90"   y="102"  fontStyle="bold" fontName="Helvetica_bold" fontSize="10" > D E S C R I P C I O N</iolc:Text>
+			<iolc:Text x="20" y="78" fontColor="black" fontName="Helvetica" fontSize="8">Direccion</iolc:Text>
+			<iolc:Text x="20" y="81" fontColor="black" fontName="Helvetica" fontSize="8">Fiscal:</iolc:Text>
+			<iolc:Text x="138.5" y="75.5" fontColor="black" fontName="Helvetica" fontSize="8">Cob.</iolc:Text>
+			<iolc:Text x="138.5" y="72.5" fontColor="black" fontName="Helvetica" fontSize="8">Suc.</iolc:Text>
+			<iolc:Text x="150.5" y="75" fontColor="black" fontName="Helvetica" fontSize="8">No. Cliente</iolc:Text>
+			<iolc:Text x="22" y="35" fontColor="black" fontName="Helvetica" fontSize="7">BARCELONA: Av. Principal de Lecherias - Centro ComercialAnna, Piso 2, Locales 32, 33 y 34 - Telf. (0281) 286.7377- 5821-5757-5045-4533-3594-1417</iolc:Text>
+			<iolc:Text x="170" y="75.5" fontColor="black" fontName="Helvetica" fontSize="8">Compra o Conv. No.</iolc:Text>
+			<iolc:Text x="22" y="38" fontColor="black" fontName="Helvetica" fontSize="7">VALENCIA: Av. Bolivar Norte- Centro Comercial Guaparo,Local 1, P.A. - Telf. (0241) 824.8813-7323-4245-4445 </iolc:Text>
+			<iolc:Text x="22" y="41" fontColor="black" fontName="Helvetica" fontSize="7">PUERTO ORDAZ: Via Colombia - Torre Loreto, P.B., Local 7- Telf. (0286) 923.5053-4093</iolc:Text>
+			<iolc:Text x="22" y="44" fontColor="black" fontName="Helvetica" fontSize="7">MARACAIBO Av. 4 Bella Vista con calle 60- Edificio Marfi,Local PB - Telf. (0261) 7922643</iolc:Text>
+			<iolc:Text x="20" y="61" fontColor="black" fontName="Helvetica" fontSize="8">Entregar</iolc:Text>
+			<iolc:Text x="130" y="60" fontColor="black" fontName="Helvetica" fontSize="8">Lugar</iolc:Text>
+			<iolc:Text x="20" y="64" fontColor="black" fontName="Helvetica" fontSize="8">en:</iolc:Text>
+			<iolc:Text x="130" y="63" fontColor="black" fontName="Helvetica" fontSize="8">Fecha</iolc:Text>
+		</iolc:InvoiceHeader>
+		<iolc:InvoiceBody height="159" width="187" x="19" y="105"  fontStyle="bold"  fontName="Courier"  fontSize="8" >
+			<iolc:Lines>
+				<iolc:Line>Este documento comprende los servicios prestados de IBM entre 01/11/2019 y 30/11/2019.</iolc:Line>
+				<iolc:Line> EXPORTACIÓN DE SERVICIOS WBK871000001                               202.179,99</iolc:Line>
+				<iolc:Line>                                                                 --------------</iolc:Line>
+				<iolc:Line>                                          SUB-TOTAL....US$           202.179,99</iolc:Line>
+				<iolc:Line>                I.V.A.  0,00 % SOBRE U$S 202.179,99....US$                 0,00</iolc:Line>
+				<iolc:Line>                                                                 --------------</iolc:Line>
+				<iolc:Line>                                          TOTAL........US$           202.179,99</iolc:Line>
+				<iolc:Line>                                                                 --------------</iolc:Line>
+				<iolc:Line>Sub-total calculado a la tasa de 1 US$ por Bs. 23503,96.</iolc:Line>
+				<iolc:Line>Estos montos podran variar de acuerdo a lo dispuesto en el articulo Nro. 51 del reglamento</iolc:Line>
+				<iolc:Line>de la ley del Impuesto al Valor Agregado.</iolc:Line>
+				<iolc:Line>Subtotal: Bs. 4752030397,76</iolc:Line>
+				<iolc:Line>Iva 0,00% sobre 4752030397,76: Bs. 0,00</iolc:Line>
+				<iolc:Line>Total: Bs. 4752030397,76</iolc:Line>
+				<iolc:Line>La presente factura debera pagarse a la fecha de su presentacion, con transferencia o deposito</iolc:Line>
+				<iolc:Line>en la cuenta de IBM de Venezuela, S.C.A. El pago de esta factura sera realizado</iolc:Line>
+				<iolc:Line>en Bolivares. De no ser pagada la factura dentro del plazo indicado en el documento</iolc:Line>
+				<iolc:Line>contractual, se causaran intereses moratorios sobre los montos adeudados, de acuerdo a</iolc:Line>
+				<iolc:Line>lo establecido en el mismo.</iolc:Line>
+				<iolc:Line>En caso de que no se reciba ninguna observacion dentro de los siete (7) dias seguientes</iolc:Line>
+				<iolc:Line>a la recepcion de la presente factura y salvo que en el documento contractual suscrito</iolc:Line>
+				<iolc:Line>entre las Partes se hubiera establecido un termino distinto, se entendera que la factura</iolc:Line>
+				<iolc:Line>esta aceptada y se procedera a su pago en el plazo indicado.</iolc:Line>
+				<iolc:Line>Contacte con nosotros: ibm.com/customersupport/ve o T.E: 0800-100-5000.</iolc:Line>
+				<iolc:Line>Factura sujeta a retencion de Impuesto al Valor Agregado (IVA) unicamente por personas</iolc:Line>
+				<iolc:Line>cuya categoria sea Contribuyente Especial determinado por el SENIAT, segun lo estable-</iolc:Line>
+				<iolc:Line>cido en el Art. 1 de la Providencia Administrativa Nro. SNAT/2015-0049 publicada en Gaceta</iolc:Line>
+				<iolc:Line>Oficial Nro. 40.720 de fecha 10 de Agosto de 2015.</iolc:Line>
+			</iolc:Lines>
+		</iolc:InvoiceBody>
+	</iolc:Invoice>
+</iolc:Invoices>

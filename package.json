@@ -1,0 +1,34 @@
+{
+  "name": "node-template-pdf",
+  "version": "1.0.0",
+  "description": "generate pdf in node.js using templates",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "set DEBUG=NODE-TEMPLATE-PDF:*&& babel-node ./test/genpdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaeze/node-template-pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "node.js",
+    "template"
+  ],
+  "author": "sebaeze@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebaeze/node-template-pdf/issues"
+  },
+  "homepage": "https://github.com/sebaeze/node-template-pdf#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "pdfkit": "^0.12.1"
+  }
+}
