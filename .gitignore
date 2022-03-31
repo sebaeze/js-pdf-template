@@ -1,5 +1,8 @@
 # Dev
 node_modules/
+test/*.json
+test/*.txt
+test/*.pdf
 
 # Logs
 logs
